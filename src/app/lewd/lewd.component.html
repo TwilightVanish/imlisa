@@ -1,0 +1,44 @@
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-md-2 mt-2">
+      <div class="list-group">
+        <a class="list-group-item list-group-item-info text-center">Loves</a>
+        <a *ngFor="let love of loveList | async" class="list-group-item list-group-item-action text-center">
+          {{love.name}}
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2 mt-2">
+      <div class="list-group">
+        <a class="list-group-item list-group-item-success text-center">Likes</a>
+        <a *ngFor="let like of likeList | async" class="list-group-item list-group-item-action text-center">
+          {{like.name}}
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2 mt-2">
+      <div class="list-group">
+        <a class="list-group-item list-group-item-warning text-center">Maybes</a>
+        <a *ngFor="let maybe of maybeList | async" class="list-group-item list-group-item-action text-center">
+          {{maybe.name}}
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2 mt-2">
+      <div class="list-group">
+        <a class="list-group-item list-group-item-danger text-center">Limits</a>
+        <a *ngFor="let limit of limitList | async" class="list-group-item list-group-item-action text-center">
+          {{limit.name}}
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2 mt-2">
+      <div class="list-group">
+        <a class="list-group-item list-group-item-info text-center">Toys</a>
+        <a *ngFor="let toy of toyList | async" class="list-group-item list-group-item-action text-center">
+          {{toy.name}}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
