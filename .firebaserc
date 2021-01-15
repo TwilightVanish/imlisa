@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "sharex-293410"
+  },
+  "targets": {
+    "sharex-293410": {
+      "hosting": {
+        "imlisa": [
+          "sharex-293410"
+        ]
+      }
+    }
   }
 }
