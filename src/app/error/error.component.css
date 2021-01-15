@@ -1,0 +1,77 @@
+#go-button {
+  font-family: Consolas, serif;
+  text-decoration: blink;
+  font-size: xx-large;
+  background-color: black;
+  border: none;
+  outline: none;
+  color: #bf21c2;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  animation: 2s blinker linear infinite;
+  -webkit-animation: 2s blinker linear infinite;
+  -moz-animation: 2s blinker linear infinite;
+}
+
+.fade {
+  animation: 10s blinker linear infinite;
+  -webkit-animation: 10s blinker linear infinite;
+  -moz-animation: 10s blinker linear infinite;
+}
+
+@-moz-keyframes blinker {
+  0% { opacity: 0.8; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0.8; }
+}
+
+@-webkit-keyframes blinker {
+  0% { opacity: 0.8; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0.8; }
+}
+
+@keyframes blinker {
+  0% { opacity: 0.8; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0.8; }
+}
+
+#portrait {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 60%;
+  width: auto;
+  opacity: 0.7;
+}
+
+#error {
+  color: red;
+  font-family: Consolas, serif;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#option {
+  width: 70%;
+  text-align: center;
+  color: #242424;
+  font-family: Consolas, serif;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  word-wrap: break-word;
+}
