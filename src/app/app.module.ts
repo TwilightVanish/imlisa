@@ -9,14 +9,12 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import {AngularFireModule} from '@angular/fire';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
-import { LewdComponent } from './lewd/lewd.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ErrorComponent,
-    EntryComponent,
-    LewdComponent
+    EntryComponent
   ],
   imports: [
     BrowserModule,

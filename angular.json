@@ -22,7 +22,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/manifest.webmanifest"
+              "src/manifest.webmanifest",
+              "src/robots.txt"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -130,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "imlisa"
+  "defaultProject": "imlisa",
+  "cli": {
+    "analytics": "965be5ee-b1cd-4fd1-a7ac-86572a82f765"
+  }
 }
