@@ -22,7 +22,6 @@
     "@angular/platform-browser-dynamic": "~10.2.0",
     "@angular/router": "~10.2.0",
     "@angular/service-worker": "~10.2.0",
-    "bootstrap": "^4.5.0",
     "firebase": "^8.10.0",
     "ng": "0.0.0",
     "rxjs": "~6.6.0",
