@@ -844,3 +844,8 @@ td,
 th {
   padding: 0;
 }
+
+/*temp fix for portfolio scrolling*/
+html {
+  scroll-padding-top: 54px;
+}
