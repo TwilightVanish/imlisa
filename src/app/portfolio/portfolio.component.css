@@ -1,0 +1,143 @@
+#portrait {
+  height: 100%;
+  width: 100%;
+  border: 6px solid lightsteelblue;
+}
+
+.container {
+  text-align: center;
+}
+
+strong {
+  color: #1EAEDB;
+}
+
+.nav {
+  z-index: 100;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-items {
+  background-color: white;
+  margin: 0 3rem 0 0;
+  padding: 10px 20px 0;
+  list-style: none;
+  display: flex;
+  flex: 1 0 0;
+  justify-content: space-between;
+}
+
+.nav-item {
+  display: block;
+  padding: 5px 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+#intro {
+  margin-top: 25%;
+}
+
+/* Larger than phone */
+@media (max-width: 549px) {
+  .nav {
+    display: none;
+  }
+
+  #intro {
+    margin-top: 50%;
+  }
+
+  h2 {
+    font-size: 190%;
+  }
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0 26%;
+}
+
+.point {
+  -moz-animation: point 7s infinite;
+  -webkit-animation: point 7s infinite;
+  animation: point 7s infinite;
+}
+
+@keyframes point {
+  /*Shake*/
+  1%, 9% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  2%, 8% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  3%, 5%, 7% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  4%, 6% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  /*bounce*/
+  20%, 30% {
+    transform: translateY(15px);
+  }
+  15%, 25%, 35% {
+    transform: translateY(0px);
+  }
+}
+
+.function-name {
+  text-align: left;
+}
+
+.function-name h6 {
+  margin-bottom: 0;
+}
+
+.company-info {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.function-desc {
+  margin-bottom: 0;
+}
+
+.job-desc {
+  text-align: left;
+}
+
+.job-date {
+  color: gray;
+}
+
+#jobs {
+  margin-top: 3em;
+}
+
+.skill-row {
+  margin-top: 2em;
+}
+
+.skill-list {
+  list-style: none;
+}
+
+.skill {
+  margin-bottom: 2em;
+}
+
+.skill-name {
+  margin-bottom: 0;
+}
